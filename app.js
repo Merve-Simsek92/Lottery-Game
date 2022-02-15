@@ -34,5 +34,5 @@ numArray.push(joker)
 count++;
 result.innerHTML += `${numArray} <br><br>`
 }
-
+count=0;
 });
