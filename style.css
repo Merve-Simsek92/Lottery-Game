@@ -1,12 +1,23 @@
-/* .container{
+.container{
     text-align: center;
     margin-top:100px ;
 }
 .button{
     text-align: center;
     margin-top: 40px;
-} */
+    height: 20px;
+} 
 body{
     background: url(https://www.computerhope.com/jargon/r/random-dice.jpg);
     background-size: cover;
+}
+#input{
+    width: 10%;
+    height:25px ;
+}
+.button button{
+    text-align: center;
+    margin-top: 40px;
+    height: 40px;
+    width: 150px;
 }

@@ -3,12 +3,12 @@ let result=document.querySelector(".result");
 let button=document.querySelector(".button");
 
 let input=document.querySelector("#input");
- let big=document.querySelector(".big-result");
+ 
 
 
 var count=0;
 button.addEventListener("click",()=>{ 
-
+ result.innerHTML = ""
 while(count<input.value){
 var numArray=[];
 while(numArray.length<6){
@@ -30,9 +30,9 @@ while(numArray.length<7){
 var joker=Math.floor(Math.random() * 90) + 1
 numArray.push(joker)
 
-document.write(numArray + "<br/>"+"<br/>");
-count++;
 
+count++;
+result.innerHTML += `${numArray} <br><br>`
 }
 
 });
